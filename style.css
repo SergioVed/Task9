@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    font-family: 'roboto', sans-serif;
+    z-index: 5;
+}
+main{
+    padding-top: 70px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+}
+footer h2{
+    font-size: 4ch;
+    padding-bottom: 70px;
+    z-index: 3;
+}
+footer a{
+    font-size: 3ch;
+    text-decoration: none;
+    color: black;
+    z-index: 3;
+}
+footer img{
+    height: 60px;
+    position: absolute;
+}
+.Header_h1{
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 5ch;
+}
+.banner{
+    display: flex;
+    background-color: #3498db;;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner h2{
+    font-size: 6ch;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
+.banner button{
+    position: absolute;
+    top: 340px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 1.5%;
+    background-color: #3498db;
+}
+.banner button:hover{
+    height: 60px;
+    width: 210px;
+    transition: 0.7s;
+}
+.banner button a:hover{
+    font-size: 4.5ch;
+    transition: 0.7s;
+}
+.banner a{
+    color: white;
+    font-size: 4ch;
+    text-decoration: none;
+}
+.Clasification_of_bikes{
+    height: 600px;
+    width: 100%;
+}
+.Clasification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    top: -604px;
+    left: 0px;
+}
+.Clasification_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    top: -604px;
+    left: 50%;
+}
+.Clasification_sec p{
+    font-size: 3ch;
+    padding-top: 10px;
+    padding: 40px;
+}
+.Clasification_sec a{
+    text-decoration: none;
+    color: black;
+}
+.Clasification_sec h2{
+    color: black;
+    font-size: 4.5ch;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'roboto', sans-serif;
+}
+.Clasification_sec button{
+    position: absolute;
+    top: 500px;
+    height: 50px;
+    width: 200px;
+    font-size: 2.5ch;
+    background-color: whitesmoke;
+    border-radius: 1.5%;
+    border: 2px solid gray;
+    color: black;
+    font-weight: 800;
+}
+.Clasification_sec button:hover{
+    background-color: white;
+    height: 55px;
+    width: 205px;
+    transition: 0.7s;
+    font-size: 2.7ch;
+}
+.Clasification h2{
+    color: black;
+    font-size: 4.5ch;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'roboto', sans-serif;
+}
+.Clasification p{
+    font-size: 3ch;
+    padding-top: 10px;
+    padding: 40px;
+}
+.Clasification a{
+    text-decoration: none;
+    color: black;
+}
+.Clasification button{
+    position: absolute;
+    top: 500px;
+    height: 50px;
+    width: 200px;
+    font-size: 2.5ch;
+    background-color: whitesmoke;
+    border-radius: 1.5%;
+    border: 2px solid gray;
+    color: black;
+    font-weight: 800;
+}
+.Clasification button:hover{
+    background-color: white;
+    height: 55px;
+    width: 205px;
+    transition: 0.7s;
+    font-size: 2.7ch;
+}
+.img_bikes{
+    width: 100%;
+    height: 100%;
+}
